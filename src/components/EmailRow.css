@@ -1,0 +1,90 @@
+.emailRow {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    z-index: 999;
+    width: 100%;
+    /*margin-left: -100px; /* Add this line */
+  }
+
+.emailRow:hover {
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.24);
+}
+
+.emailRow-options {
+    display: flex;
+}
+
+.emailRow-message {
+    display: flex; 
+    flex:0.8;
+    align-items: center;
+    font-size: 13px;
+}
+
+.emailRow-message > h4 {
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.emailRow-title{
+    font-size: 13px;
+    flex: 0.3;
+}
+
+.emailRow-time {
+    padding-right: 15px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.emailRow-description {
+    font-weight: 400;
+    color:grey;
+}
+
+@media only screen and (max-width: 700px) {   
+    .emailRow-options > .MuiIconButton-root{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .emailRow-time {
+        display: none;
+    }
+}
+
+
+  
+/*.emailRow.blueDot {
+    background-color: #e0e0ff;
+  }
+  
+  .emailRow.blueDot .emailRow-title {
+    font-weight: bold;
+  }
+  
+  .emailRow.blueDot .emailRow-message {
+    font-weight: bold;
+  }
+  
+    .blue-dot-icon {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  
+  .emailRow.unread .blue-dot-icon {
+    display: none;
+  } */
+ 
+  
